@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+
+
+.td-img{
+    width: 100px;
+}
+.td-info{
+    background-color: #333333;
+    padding: 1px 20px 1px 20px;
+    border-radius: 10px;
+}
+.img-pessoa1 {
+    width: 400px;
+}
+.span-frist{
+    font-size: 0.8em;
+    color: white;
+    font-family:'Caveat', cursive;
+}
+.span-secund {
+    font-size: 2em;
+    width: 1%; white-space: nowrap; 
+    color: #D39531;
+    font-weight:bolder;
+}
+.span-tre {
+    font-family:'Caveat', cursive;
+    font-size: 1.5em;
+    font-style: italic;
+    color: white;
+}
+.span >a {
+    text-decoration: none;
+    background-color:#3D5B9C;
+    color: white;
+}
+p{
+    margin-top: 60px;
+    margin-left: 17%;
+}
+.title {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.title >a {
+    text-decoration: none;
+    color: #333333;
+}
+#aqui {
+    background-color: #333333;
+    padding: 10px;
+    border-radius: 5px;
+}
+#aqui > a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Caveat', cursive;;
+    font-size: 1.6em;
+    padding: 10px;
+}

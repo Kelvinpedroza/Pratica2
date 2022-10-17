@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#aqui > a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Caveat', cursive;;
+    font-size: 1.6em;
+    padding: 10px;
+    background-color: #333333;
+    border-radius: 5px;
+}
+
+.img-projeto {
+    width: 300px;
+}

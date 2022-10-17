@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="../principal/padraostyle.css">
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <table>
+            <tr>
+                <td rowspan="2"><img src="../media/face.jpg" alt="perfil" class="foto-perfil"></td>
+                <td class="td-perfil td-font">kelvin pedroza</td>
+            </tr>
+            <tr>
+                <td class="td-perfil td-option">Desenvolvedor web</td>
+                
+            </tr>
+           
+        </table>
+    </header>
+    <div class="master-style1">
+        <main class="master-style">
+            <table class="nav-table">
+                <tbody class="t-nav">
+                    <tr class="tr-nav">
+                        <td class="td-nav"><a href="../principal/principal.html">Principal</a></td>
+                        <td class="td-nav"><a href="../quemSou/quemSou.html">Quem Sou</a></td>
+                        <td class="td-nav"><a href="../Projeto/projeto.html">Projetos</a></td>
+                        <td id="aqui"><a href="../Contato/contato.html">Contatos</a></td>
+                    </tr>
+                </tbody>
+
+            </table>
+            <section class="section-contato">
+                <h1>Entre em contato!</h1>
+                <p>Preencha todos os campos do formuçario a seguir e em até 48h lhe respondeirei. <br>Será um prazer lhe atender!</p>
+            </section>
+            <form action="#">
+                <div class="primeiro-campo">
+                    <label for="assunto" name="primeiro-campo" id="primeiro">Assunto</label><br>
+                    <input type="text" name="primeiro-campo" id="primeiro" size="30" maxlength="20" required autofocus placeholder="Selecione o assunto" list="minhalista" class="form-input" >
+                    <datalist id="minhalista">
+                        <option value="Projetos">Projetos</option>
+                        <option value="Acessoria">Acessoria</option>
+                        <option value="Orçamentos">Orçamentos</option>
+                        <option value="Eventos">Eventos</option>
+                    </datalist><br>
+                </div>
+
+                <div class="primeiro-campo">
+                    <label for="txtNome" id="name" class="label-form" >Nome</label><br>
+                    <input type="text"size="30" maxlength="20" required placeholder="Nome" id="txtNome" class="form-input"><br>
+                </div>
+
+                <div class="primeiro-campo">
+                    <label for="eemail" name="email" class="label-form">E-mail</label><br>
+                    <input type="email" name="email" id="eemail" required size="30" placeholder="Email@email.com" class="form-input"  ><br>
+                </div>
+
+                <div class="primeiro-campo">
+                    <label for="tel1" name="tel" class="label-form">Telefone</label><br>
+                    <input type="tel" name="tel" id="tel1" size="30" required placeholder="(99) 99999-9999" class="form-input" ><br>
+                </div>
+
+                <div class="primeiro-campo">
+                    <label for="textbox" name="mensagem" class="label-form">Mensagem</label><br>
+                    <textarea name="mensagem" id="textbox" cols="30" rows="10" placeholder="Mensagem" class="form-input"></textarea><br>
+                </div>
+
+                <div class="submit"><input type="submit" value="Enviar" style = "color:rgb(255, 255, 255); background-color:#3D5B9C; width: 70px; height: 30px; border: black; border-radius: 5px; cursor:pointer;"></div>
+            </form>
+            <hr>
+            <section class="secund-section">
+                <h3>Outras Formas de contado:</h3>
+                <p>Residente em Piuma/ES <br><a href="#">Contato@e-mail</a><br>(28) 99999-9999 <br><a href="https://www.linkedin.com/in/kelvin-pedroza-83a979220/" target="_blank">LinkeIn</a></p>
+            </section>
+        </main>
+    </div>
+
+
+
+
+
+
+
+
+
+
+        <footer><img src="../media/ifes.png" alt="ifes" class="ifes-img" id="ifes"></footer>
+       
+</body>
+</html>
